@@ -1,0 +1,9 @@
+__pycache__
+myenv
+
+*.tmp
+*.log
+.DS_Store
+Trumbs.db
+
+config.local.json
