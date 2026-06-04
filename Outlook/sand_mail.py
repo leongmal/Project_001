@@ -1,4 +1,6 @@
+# """отправка письма из Outtlook"""
 import win32com.client
+
 
 def send_email():
     outlook = win32com.client.Dispatch("Outlook.Application")
