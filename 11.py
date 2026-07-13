@@ -63,7 +63,7 @@
 ##
 ##print(date.weekday())
 ##############################
-st ='195277, Г.САНКТ-ПЕТЕРБУРГ, ВН.ТЕР.Г. МУНИЦИПАЛЬНЫЙ ОКРУГ САМПСОНИЕВСКОЕ, ПР-КТ ФИНЛЯНДСКИЙ, Д. 4, ЛИТЕРА А, ПОМЕЩ. 14-Н-878, 879, ОФИС 331' 
+st ='МЕЖРАЙОННОЙ ИНСПЕКЦИИ ФЕДЕРАЛЬНОЙ НАЛОГОВОЙ СЛУЖБЫ №22 ПО САНКТ-ПЕТЕРБУРГУ от 22.09.2023г'
 print(st.title())
 print('***************************************************************************')
 ##print(st.lower())
@@ -147,9 +147,20 @@ print('*************************************************************************
 ##        print(f'  Строка {r_idx + 1}: ' + ' | '.join(row_texts))
 ##    print('')
 ######################################
-#dict_abonents={}
 
-with open('nabor.txt', 'r', encoding ='utf-8') as file:
-    content= file.read()
-print(content)
+##with open('proba.txt','rt+') as f:
+##    for i in range(6,10):
+##        f.write(str(i))
+import os
+
+##current_direktory = os.getcwd()
+##print({current_direktory})
+##os_list= os.listdir()
+##print(os_list)
+##os.chdir('WORD')
+##os_list= os.listdir()
+##print(os_list)
+
+        
+os.system('start C:\\Users\\Leonik\\AppData\\Local\\Programs\\Python\\Python312\\Project_002_sqlite3\\О Договоре')        
     
