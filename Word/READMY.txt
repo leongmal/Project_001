@@ -1,0 +1,7 @@
+'''Парсит из файла реквизиты потребителя'''
+
+1. import_name.py   берет данные из excel "data" и вносит в companies.json
+
+2. letter_tmpl.py формирует письма в папку result
+
+шаблоном выступает letter_template.docx
